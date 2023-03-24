@@ -1,0 +1,18 @@
+{
+  "name": "smoldot-on-ww",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "smoldot": "^1.0.0",
+    "worker-webrtc": "github:johanholmerin/worker-webrtc#semver:^0.1.1"
+  }
+}
